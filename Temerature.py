@@ -3,7 +3,8 @@
 # 
 # This program says the temperature every second
 
-def on_forever do
+current_temperature = 0
+def on_forever():
     global current_temperature
     current_temperature = input.temperature()
     basic.show_number(current-temperature)
